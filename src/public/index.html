@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pokemons</title>
+</head>
+<body>
+    <main>
+        <div class="content-title">
+            <h1>WECAN</h1>
+            <h2>Study groups</h2>
+        </div>
+        <form id="pokemonForm">
+            <label>Name:</label>
+            <input class="input" name="name">
+
+            <label>Type:</label> 
+            <input class="input" name="type">
+
+            <label>Power:</label>
+            <input class="input" name="power">
+
+            <label>Image</label>
+            <input class="input" type="file" name="file">
+
+            <input class="input-submit" type="submit">
+        </form>
+        
+        <div id='pokemons-container' class='main-container'></div>
+    </main>
+    <!-- HANDLEBARS -->
+
+    <span id='data'></span>
+
+    <!-- script handlebars -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js" integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- script js -->
+    <script src="./index.js"></script>
+</body>
+</html>

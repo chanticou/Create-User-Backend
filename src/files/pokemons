@@ -1,0 +1,23 @@
+[
+   {
+      "name": "Copos",
+      "type": "Electricity",
+      "power": "Fire boul",
+      "thumbnail": "http://localhost:8080/img/tajiro.jpg",
+      "id": 1
+   },
+   {
+      "name": "Copos",
+      "type": "Electricity",
+      "power": "Fire boul",
+      "thumbnail": "http://localhost:8080/img/tajiro.jpg",
+      "id": 2
+   },
+   {
+      "name": "Chantal Denise Coutenceau",
+      "type": "planta",
+      "power": "plants crazy",
+      "thumbnail": "http://localhost:8080/img/parrot.jpg",
+      "id": 3
+   }
+]
